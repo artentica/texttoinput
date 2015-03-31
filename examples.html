@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Ceci se passe de commentaire.
+-->
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+ <meta http-equiv="Content-Language" content="en" />
+ <meta name="author" content="Riouallon Vincent" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Text To Input</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body class="container">
+    <header>
+  <div class="inner">
+    <h1><a href="">TextToInput</a></h1>
+    <nav class="on-examples">
+      <ul>
+        <li><a href="index.html" class="nav-about">About</a></li>
+        <li><a href="examples.html" class="nav-examples">Examples</a></li>
+        <li><a href="options.html" class="nav-options">Options</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
+
+    <main>
+        <article>
+    <h2>Getting Started</h2>
+
+<p>The first thing you'll need to do is <a href="">download TextToInput</a>. And then include Jquery and TextToInput's script.</p>
+
+<div class="highlight">
+  <div class="copy">Copy</div>
+<pre><code class="language-html" data-lang="html"><span class="c1">&lt;!-- To include in your code --&gt; </span>
+<span class="nt">&lt;script </span><span class="k">src</span><span class="nb">=</span><span class="s">"/path/to/jquery.min.js"</span> <span class="k">type</span><span class="nb">=</span><span class="s">"text/javascript"</span><span class="nt">&gt;&lt;/script&gt;</span><span class="c1"> &lt;!--At least jquery 1.7 --&gt;</span></code>
+<code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="k">src</span><span class="nb">=</span><span class="s">"/path/to/texttoinput.min.js"</span> <span class="k">type</span><span class="nb">=</span><span class="s">"text/javascript"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></div>
+
+<p>The rest of this guide and any code snippets on this site, unless otherwise noted, will be using the TextToInput's V2.0.</p>
+<p>For the example I will use bootstrap CSS to show you how you can apply style on the different part of the plug-in.</p>
+<p>For some functions I will also use bootstrap JS for the same reason than precedently, i will personnalised some function.</p>
+
+<h3>Where insert code</h3>
+<div class="highlight"><div class="copy">Copy</div>
+<pre>
+<code class="language-html" data-lang="html"><span class="c1">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta</span> <span class="k">http-equiv</span><span class="nb">=</span><span class="s">"Content-Type"</span> <span class="k">content</span><span class="nb">=</span><span class="s">"text/html"</span> <span class="k">charset</span><span class="nb">=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;title&gt;</span><span class="c1"> &lt;!-- Your Title --&gt; </span><span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;link</span> <span class="k">rel</span><span class="nb">=</span><span class="s">"stylesheet"</span> <span class="k">type</span><span class="nb">=</span><span class="s">"text/css"</span> <span class="k">media</span><span class="nb">=</span><span class="s">"screen"</span> <span class="k">href</span><span class="nb">=</span><span class="s">"css/sryle.css"</span> <span class="nt">/&gt;</span> <span class="c1"> &lt;!-- Your CSS Code Here --&gt; </span>
+
+    <span class="c1">&lt;!--[if IE]&gt;
+    &lt;script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;</span>
+  <span class="nt">&lt;/head&gt;
+  &lt;body&gt;</span>
+
+    <span class="c1"> &lt;!-- Your HTML Code Here --&gt; </span>
+
+  <span class="nt">&lt;/body&gt;</span>
+
+  <span class="nt">&lt;script </span><span class="k">src</span><span class="nb">=</span><span class="s">"/path/to/jquery.min.js"</span> <span class="k">type</span><span class="nb">=</span><span class="s">"text/javascript"</span><span class="nt">&gt;&lt;/script&gt;</span><span class="c1"> &lt;!--At least jquery 1.7 --&gt;</span></code>
+  <span class="nt">&lt;script </span><span class="k">src</span><span class="nb">=</span><span class="s">"/path/to/texttoinput.min.js"</span> <span class="k">type</span><span class="nb">=</span><span class="s">"text/javascript"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+  <span class="nt">&lt;script </span><span class="k">type</span><span class="nb">=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+    <span class="c1"> &lt;!-- Your Javascript Code Here --&gt; </span>
+  <span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+</pre></div>
+
+
+
+
+<h3>A Basic Table</h3>
+<h3>A Basic List</h3>
+  </article>
+    </main>
+
+    <footer>
+  <div class="inner">
+    <p>A project of <a href="http://vincentriouallon.com/" target="_blank">Riouallon Vincent</a></p>
+  </div>
+</footer>
+
+</body>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</html>

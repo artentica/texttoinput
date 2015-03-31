@@ -1,0 +1,349 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Panel admin</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+<!--		<link rel="stylesheet" href="css/default.css" type="text/css" />
+
+<link rel="stylesheet" href="css/adminprincipal.css" type="text/css" />-->
+
+	</head>
+
+	<body>
+<style>
+    .red{
+        color:red;
+    }
+</style>
+
+		<div class="body">
+
+
+           <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+				<!--<div id="register" style="text-align:center;" class="alert alert-success alert-dismissible fade in" role="alert">
+				<button type="button" class="close">
+				<span onclick="$('#register').hide();" >x</span>
+				<span class="sr-only">Close</span></button>
+				<span class="glyphicon glyphicon-ok" aria-hidden="true">&nbsp;</span>
+				<span class="sr-only">Success:</span>
+				Les informations ont été correctement enregistrées
+				</div>-->
+    </div></div>
+
+<!--<div id="unique"></div>
+
+<div class="col-md-12">
+
+            <table id="tablaDatos" class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th class="col-md-1">Action</th>
+                    <th class="col-md-2">Identifiant</th>
+                    <th class="col-md-1">Nom</th>
+                    <th class="col-md-1">Prenom</th>
+                    <th class="col-md-1">Date d'anniversaire</th>
+                    <th class="col-md-1">Téléphone</th>
+                    <th class="col-md-2">Couriel</th>
+                    <th class="col-md-1">Date d'enregistrement</th>
+                    <th class="col-md-1">Adresse IP</th>
+                    <th hidden>ID</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+<tr>
+            <td class="controller"></td>
+            <td data-type="email">jeaezzzzrval@isen.fr</td>
+            <td >charle</td>
+            <td >z</td>
+            <td data-type=""  class="lockValue">27/11/1996</td>
+            <td data-type="number">11223344</td>
+            <td data-type="email">jeaezzzzzzzrval@isen.fr</td>
+            <td >2014-11-26 13:09:57</td>
+            <td >::1</td>
+            <td class="bdd_ID" hidden>182</td>
+        </tr><tr>
+            <td class="controller"></td>
+            <td data-type="email"  data-name_bdd="identifiant">jean-pierre.gerval@isen.fr</td>
+            <td >harles</td>
+            <td >edourd </td>
+            <td data-type="" >07/11/1996</td>
+            <td data-type="number">0011223000</td>
+            <td data-type="email">jean-pierre.gerval@is.fr</td>
+            <td >2014-11-28 10:03:48</td>
+            <td >::1</td>
+            <td class="bdd_ID" hidden>183</td>
+        </tr><tr>
+            <td class="controller"></td>
+            <td data-type="email"  data-name_bdd="identifiant">ean-pierre.gerval@isen.fr</td>
+            <td >dfh</td>
+            <td >d</td>
+            <td data-type="" >dg</td>
+            <td data-type="number">0011223000</td>
+            <td data-type="email">jean-pierre.gerval@is.fr</td>
+            <td >2014-11-26 13:15:42</td>
+            <td >::1</td>
+            <td class="bdd_ID" hidden>184</td>
+        </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+             <div style="" id="unique2"></div>
+
+
+            <div class="col-md-12">
+
+            <table id="tablaDatos2" class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th class="col-md-1">Action</th>
+                    <th class="col-md-2">Identifiant</th>
+                    <th class="col-md-1">Nom</th>
+                    <th class="col-md-1">Prenom</th>
+                    <th class="col-md-1">Date d'anniversaire</th>
+                    <th class="col-md-1">Téléphone</th>
+                    <th class="col-md-2">Couriel</th>
+                    <th class="col-md-1">Date d'enregistrement</th>
+                    <th class="col-md-1">Adresse IP</th>
+                    <th hidden>ID</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+<tr>
+            <td data-type="email"  data-name_bdd="identifiant">jeaezzzzrval@isen.fr</td>
+            <td data-name_bdd="nom_fils">charle</td>
+            <td data-name_bdd="prenom_fils">z</td>
+            <td data-type="" data-name_bdd="ddn_fils">27/11/1996</td>
+            <td data-type="number" data-name_bdd="tel_mobile">11223344</td>
+            <td data-type="email" data-name_bdd="courriel">jeaezzzzzzzrval@isen.fr</td>
+            <td data-name_bdd="date">2014-11-26 13:09:57</td>
+            <td data-name_bdd="ip">::1</td>
+            <td class="bdd_ID" data-name_bdd="ID" hidden>182</td>
+        </tr><tr>
+            <td data-type="email"  data-name_bdd="identifiant">jean-pierre.gerval@isen.fr</td>
+            <td data-name_bdd="nom_fils">harles</td>
+            <td data-name_bdd="prenom_fils">edourd </td>
+            <td data-type="" data-name_bdd="ddn_fils">07/11/1996</td>
+            <td data-type="number" data-name_bdd="tel_mobile">0011223000</td>
+            <td data-type="email" data-name_bdd="courriel">jean-pierre.gerval@is.fr</td>
+            <td data-name_bdd="date">2014-11-28 10:03:48</td>
+            <td data-name_bdd="ip">::1</td>
+            <td class="bdd_ID" data-name_bdd="ID" hidden>183</td>
+        </tr><tr>
+            <td data-type="email"  data-name_bdd="identifiant">ean-pierre.gerval@isen.fr</td>
+            <td data-name_bdd="nom_fils">dfh</td>
+            <td data-name_bdd="prenom_fils">d</td>
+            <td data-type="" data-name_bdd="ddn_fils">dg</td>
+            <td data-type="number" data-name_bdd="tel_mobile">0011223000</td>
+            <td data-type="email" data-name_bdd="courriel">jean-pierre.gerval@is.fr</td>
+            <td data-name_bdd="date">2014-11-26 13:15:42</td>
+            <td data-name_bdd="ip">::1</td>
+            <td class="bdd_ID" data-name_bdd="ID" hidden>184</td>
+        </tr>
+            </tbody>
+        </table>
+    </div>-->
+
+
+
+             <div style="" id="unique3"></div>
+
+
+            <div class="yolo">
+                <h3>Titre ul</h3>
+            <ul>
+              <li>charle</li>
+              <li>edourd</li>
+              <li>0011223000</li>
+              <li>27/11/1996</li>
+              <li>jean-pierre.gerval@isen.fr</li>
+            </ul>
+                <h3>Titre ul</h3>
+            <ul>
+              <li>Antoine</li>
+              <li>Xavier</li>
+              <li>0011223000</li>
+              <li>27/11/1996</li>
+              <li>jean-pierre.gerval@isen.fr</li>
+            </ul>
+                <h3>Titre ul</h3>
+            <ul>
+              <li>charle</li>
+              <li>edourd</li>
+              <li>0011223000</li>
+              <li>27/11/1996</li>
+              <li>jean-pierre.gerval@isen.fr</li>
+            </ul>
+
+
+    </div>
+
+  <div style="" id="unique4"></div>
+            <div class="yolo2">
+                <h3>Titre ul</h3>
+            <ul>
+              <li class="controller2"></li>
+              <li>charle</li>
+              <li>edourd</li>
+              <li>0011223000</li>
+              <li>27/11/1996</li>
+              <li>jean-pierre.gerval@isen.fr</li>
+            </ul>
+                <h3>Titre ul</h3>
+            <ul>
+              <li class="controller2"></li>
+              <li>Antoine</li>
+              <li>Xavier</li>
+              <li>0011223000</li>
+              <li>27/11/1996</li>
+              <li>jean-pierre.gerval@isen.fr</li>
+            </ul>
+                <h3>Titre ul</h3>
+            <ul>
+              <li class="controller2"></li>
+              <li>charle</li>
+              <li>edourd</li>
+              <li>0011223000</li>
+              <li>27/11/1996</li>
+              <li>jean-pierre.gerval@isen.fr</li>
+            </ul>
+
+
+    </div>
+
+
+
+        <!-- Modal zip rar-->
+			<div class="modal fade" id="downloadstudent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Erreur de chargements</h4>
+			      </div>
+			      <div class="modal-body">
+                      <p>Le chargement des informations ne s'est pas correctement effectué<br>Avez vous bien changé les information dans le fichier conf.php?</p>
+
+			      </div>
+			      <div class="modal-footer">
+			      <button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>
+
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+
+		</div>
+
+
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="js/pbTable.min.js"></script>
+        <script src="js/tdInput.js"></script>
+        <script src="js/TextToInput.js"></script>
+
+
+<script>
+
+
+//regex de pbtable à corriger avec cette ligne:   sorttable.DATE_RE = /^(\/d\/d?)[\/\.-](\/d\/d?)[\/\.-]((\/d\/d)?\/d\/d)$/;
+//Remplacer le message d'erreur: No se encontraron...   par : "Pas de résultats pour cette requête"
+//Remplacer Todos par Tous et Buscar par "rechercher"
+    $(document).ready(function(e) {
+/*
+	$('#tablaDatos').pbTable({
+		selectable: true,
+		sortable:true,
+		toolbar:{
+			enabled:true,
+			filterBox:true,
+			buttons:[]
+		}
+	});*/
+
+
+        /*$('#tablaDatos').TextToInput({
+            mainButtonDiv  : "#unique",
+            actionCell : ".controller",
+            controleUniqueButton : false,
+            modifiedtext : " Modifier",
+            savetext : " Sauvegarder",
+            UpdatedVal : ".red",
+            saveOnChangeTd:true,
+            canceltext : " Annuler",
+            PrecisedFieldBDD : false,
+            PrecisedIDBDD : false,
+            modifiedtitle : "Modifiez tout les champs autorisés",
+            savetitle : "Sauvegardez vos modifications",
+            canceltitle : "Annuler toutes vos récentes modifications",
+            ToSavetext : " Valider les changements",
+            ToSavetitle : "Produit une variable renvoyant tous les changements",
+            lien : "/rentree/?/admin/MAJ_BDD"
+        });*/
+
+
+        $('.yolo').TextToInput({
+            mainButtonDiv  : "#unique3",
+            UpdatedVal : ".red",
+            controleUniqueButton : true,
+            modifiedtext : " Modifier",
+            savetext : " Sauvegarder",
+canceltext : " Annuler",
+                        ToSavetext : " Valider les changements",
+
+            PrecisedFieldBDD : false,
+            PrecisedIDBDD : false,
+        });
+
+
+        $('.yolo2').TextToInput({
+            mainButtonDiv  : "#unique4",
+            UpdatedVal : ".red",
+            controleUniqueButton : false,
+            modifiedtext : " Modifier",            actionCell : ".controller2",
+
+            savetext : " Sauvegarder",
+canceltext : " Annuler",
+                        ToSavetext : " Valider les changements",
+
+            PrecisedFieldBDD : false,
+            PrecisedIDBDD : false,
+        });
+
+        /*$('#tablaDatos2').TextToInput({
+            mainButtonDiv  : "#unique2",
+            controleUniqueButton : true,
+            modifiedtext : " Modifier",
+            savetext : " Sauvegarder",
+            UpdatedVal : ".red",
+                        PrecisedIDBDD : false,
+
+            canceltext : " Annuler",
+            modifiedtitle : "Modifiez tout les champs autorisés",
+            savetitle : "Sauvegardez vos modifications",
+            canceltitle : "Annuler toutes vos récentes modifications",
+            ToSavetext : " Valider les changements",
+            ToSavetitle : "Produit une variable renvoyant tous les changements",
+            lien : "/rentree/?/admin/MAJ_BDD"
+        });*/
+//$("#register").hide();
+
+
+});
+
+</script>
+	</body>
+</html>
+
